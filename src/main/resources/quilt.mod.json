@@ -3,7 +3,7 @@
 	"quilt_loader": {
 		"group": "io.github.KingRocco21",
 		"id": "title-resizer",
-		"version": "1.0",
+		"version": "1.0.1",
 		"metadata": {
 			"name": "Title Resizer",
 			"description": "Resizes the titles, or the text that appears in the middle of your screen in-game.",
@@ -31,6 +31,22 @@
 			{
 				"id": "minecraft",
 				"versions": ">=1.20"
+			},
+			{
+				"id": "cloth-config2",
+				"versions": ">=11.1.118"
+			},
+			{
+				"id": "modmenu",
+				"versions": ">=7.2.2",
+				"optional": true
+			}
+		],
+		"breaks": [
+			{
+				"id": "titlefixer",
+				"versions": "*",
+				"optional": true
 			}
 		]
 	},
