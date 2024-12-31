@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "title-resizer",
+	"version": "${version}",
+	"name": "Title Resizer",
+	"description": "Allows you to change the scale of titles, the text that appears in the middle of your screen in-game.",
+	"authors": [
+		"KingRocco21"
+	],
+	"contact": {
+		"issues": "https://github.com/KingRocco21/title-resizer/issues",
+		"sources": "https://github.com/KingRocco21/title-resizer"
+	},
+	"license": "MIT",
+	"icon": "assets/title-resizer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"io.github.kingrocco21.TitleResizerClient"
+		],
+		"modmenu": [
+			"io.github.kingrocco21.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		{
+			"config": "title-resizer.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": ">=1.21.1",
+		"java": ">=21",
+		"cloth-config": ">=15.0.140"
+	},
+	"suggests": {
+		"modmenu": ">=11.0.3"
+	},
+	"conflicts": {
+		"titlefixer": "*"
+	}
+}

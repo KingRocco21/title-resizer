@@ -1,12 +1,16 @@
-# Title Resizer (for Quilt)
-Change the size of Minecraft's titles to your liking!
-## Installation
-Install at Modrinth (link coming soon)
+<img src="src/main/resources/assets/title-resizer/icon.png" width="128">
 
-## Dependencies
-- [Cloth Config](https://modrinth.com/mod/cloth-config) to edit the title height and width
+# Title Resizer
 
-## Recommendations
-- [Mod Menu](https://modrinth.com/mod/modmenu) to view the config in-game
+Ever get annoyed that Minecraft's titles go offscreen? Now you can shrink them to whatever size you want!
 
-License: MIT
+## Default Title Size at 1080p, GUI Scale 2:
+
+![Default Title Size at 1080p, GUI Scale 2](images/DefaultTitles.png)
+
+## Title Size 0.5 at 1080p, GUI Scale 2:
+
+![Title Size at 0.5 Scale](images/ResizedTitles.png)
+
+## How to use
+This is a Fabric mod that requires [Cloth Config](https://modrinth.com/mod/cloth-config). If you install [Mod Menu](https://modrinth.com/mod/modmenu), you can also edit the config in-game.
